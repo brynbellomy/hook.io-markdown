@@ -1,0 +1,26 @@
+{
+  "author": "bryn austin bellomy <bryn@signals.io> (http://signals.io)",
+  "name": "hook.io-markdown",
+  "description": "Github-Flavored Markdown renderer hook (based on the JS port by @isaacs)",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brynbellomy/hook.io-markdown.git"
+  },
+  "main": "lib/markdown.js",
+  "dependencies": {
+    "hook.io": "0.8.x",
+    "async": "0.1.x",
+    "github": "0.1.x",
+    "github-flavored-markdown": "1.0.x",
+    "request": "2.9.x"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "bin": {
+    "hookio": "./bin/markdown"
+  },
+  "engines": {
+    "node": "0.6.x"
+  }
+}

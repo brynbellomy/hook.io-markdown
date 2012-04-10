@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+var MarkdownHook = require('../lib/markdown').Markdown;
+
+var myhook = new MarkdownHook({
+  name: "the-markdown-hook",
+  debug: true
+});
+
+myhook.start();
+hook.emit('render-markdown', {markdown:'this is my **favorite** time of year!', user:'brynbellomy', repo:'facemelt', includeCSS:true});
